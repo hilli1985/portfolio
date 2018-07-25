@@ -1,0 +1,51 @@
+#container {
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: (1fr 1fr 1fr 1fr 1fr 1fr); */
+    /* grid-template-rows: (1fr 1fr 1fr 1fr 1fr); */
+    /* grid-template-columns: 6(1fr); */
+    /* grid-template-rows: 5(1fr); */
+    /* grid-template-areas: "h h h h h h" "s s m m m m" "s s m m m m" "s s m m m m" "s s f f f f"; */
+    /* grid-template-areas: "s s h h h h" "s s m m m m" "s s m m m m" "s s m m m m" "s s f f f f"; */
+    /* grid-template-columns: (1fr 1fr 1fr 1fr); */
+    /* grid-template-areas: "h h h h" "s m m m" "s m m m" "s m m m" "s f f f"; */
+    /* grid-template-columns: (1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: repeat (1fr, 5);
+    grid-template-areas: "s s s s s" "f f m m  h " "f f m m h" "f f m m h" "f f m m h"; */
+    /* grid-template-columns: (1fr 1fr 1fr);
+    grid-template-rows: repeat (1fr, 5);
+    grid-template-areas: "h f s" "h f s" "h f s " "h f s " "h m s"; */
+    grid-template-columns: (1fr 1fr 1fr);
+    grid-template-rows: repeat (1fr, 5);
+    grid-template-areas: "h f s" "h f s " "h 0 s " "h m s" "h m s";
+}
+
+.font {
+    font-family: fantasy;
+    /* font-size: 5vw; */
+    font-size: 5vh;
+}
+
+.head {
+    grid-area: h;
+    background-color: rgb(255, 187, 0);
+    margin: 5px;
+}
+
+.side-nav {
+    grid-area: s;
+    background-color: rgb(235, 102, 13);
+    margin: 5px;
+}
+
+.main {
+    grid-area: m;
+    background-color: turquoise;
+    margin: 5px;
+}
+
+.foot {
+    grid-area: f;
+    background-color: #97928e;
+    margin: 5px;
+}
