@@ -2,11 +2,13 @@
 //====================
 
 //Partner Exercise 8
+
 /*var name = prompt("What's your name?");
 var age = prompt("What's your age?");
 alert(name + " is " + age + " years old.");*/
 
 //Individual Exercise 1
+
 /*var age = prompt("What's your age?");
 if (age >= 18) {
     alert("you can drink!");
@@ -16,14 +18,26 @@ if (age >= 18) {
 
 
 //Individual Exercise 2
-/*var citizenship = prompt("What's your citizenship?");
-if (citizenship === "Israeli") {
-    alert("you can pass the boarder!");
-} else
-    alert("your cannot pass the boarder");*/
+
+// let citizenship = prompt("What's your citizenship?");
+// let national = "Israeli";
+// if (citizenship === national) {
+//     alert("you can pass the boarder!");
+// } else
+//     alert("your cannot pass the boarder");
+
+// //added ignore cases - optional extention 
+// let citizenship = prompt("What's your citizenship?");
+// let national = "Israeli";
+// if (citizenship.toUpperCase() === national.toUpperCase()) {
+//     alert("you can pass the boarder!");
+// } else
+//     alert("your cannot pass the boarder");
+
 
 
 //Individual Exercise 3
+
 /*var age = prompt("What's your age?");
 var gender = prompt("What's your gender?");
 
@@ -33,6 +47,7 @@ if ((age >= 18) && (gender === "female")) {
     alert("you can't drink anything.");
 } else
     alert("you can drink but you must pay.");*/
+
 
 //part 2 - JS
 //====================
@@ -50,10 +65,14 @@ if ((age >= 18) && (gender === "female")) {
 }*/
 
 //PARTNER EXERCISE 1
-/*const restaurants = ["Moses", "BBB", "Susu&Sons", "Tiger Lilly", "Indi", "Greg"];
-for (const s of restaurants) {
-    console.log(s);
-}*/
+
+// const restaurants = ["Moses", "BBB", "Susu&Sons", "Tiger Lilly", "Indi", "Greg"];
+// restaurants.push("Aroma"); //add in the end
+// restaurants.splice(0, 1); // position and how many to remove
+// restaurants.splice(0, 1, "Moses"); //position and how may to add and which
+// for (const s of restaurants) {
+//     console.log(s);
+// }
 
 /*const numbers = [11, 45, 5, 69, 44, 20, 49, 21, 9, 14, 18, 47, 7, 87, 92, 88, 63, 93, 6, 57, 53, 55, 1, 72, 22, 39, 81, 76, 67, 40, 15, 52, 96, 36, 94, 65, 70, 61, 8, 75, 17, 83, 85, 78, 97, 28, 43, 16, 13, 50, 91, 25, 26, 90, 30, 60, 51, 0, 58, 98, 80, 74, 37, 71, 19, 29, 33, 84, 48, 95, 46, 32, 73, 89, 42, 68, 99, 24, 34, 35, 86, 38, 64, 79, 77, 23, 56, 41, 2, 54, 4, 59, 31, 10, 27, 3, 82, 12, 66, 62];
 let sum = 0;
@@ -64,6 +83,7 @@ console.log(sum);
 */
 
 //PARTNER EXERCISE 3
+
 /*const myColor = ["Red", "Green", "White", "Black"];
 var cat = myColor[0];
 for (let i = 1; i < myColor.length; i++) {
@@ -73,6 +93,7 @@ console.log(cat);
 */
 
 //PARTNER EXERCISE 4
+
 /*let str = "0254687193";
 let new_str = '';
 for (let i = 0; i < str.length - 1; i++) {
@@ -84,6 +105,7 @@ for (let i = 0; i < str.length - 1; i++) {
 console.log(new_str);*/
 
 //PARTNER EXTENSION 1 (OPTIONAL)
+
 //find the most freq element in array
 const array = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 array.sort();

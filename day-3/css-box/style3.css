@@ -1,0 +1,153 @@
+#parent0 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+#child01 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#child02 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+/* ----------------------------------------------------------- */
+
+#parent1 {
+    background-color: red;
+    margin: 100px;
+}
+
+#child11 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+#child12 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+
+/* put the line padding and display inline-block together will create a box 
+which resize according to its content */
+
+#parent2 {
+    background-color: red;
+    margin: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#child21 {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+}
+
+#child22 {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* relative say the element act as you should act */
+
+
+/* relative means relative to itself */
+
+#parent3 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#child31 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+#child32 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* absolut is relevant only when the parant is not static */
+
+#parent4 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-left: 500px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#child41 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}
+
+#child42 {
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    background-color: green;
+    position: absolute;
+}
+
+#child43 {
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    background-color: yellow;
+    position: absolute;
+}
+
+#child44 {
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 200px;
+    background-color: purple;
+    position: absolute;
+}
+
+#child45 {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    background-color: whitesmoke;
+    position: absolute;
+}

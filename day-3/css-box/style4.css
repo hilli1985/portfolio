@@ -1,0 +1,108 @@
+#parent {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#child1 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    padding-bottom: 370px;
+}
+
+#child2 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    padding-left: 370px;
+}
+
+h2 {
+    position: absolute;
+    right: 600px;
+}
+
+
+/* ======================================================================================= */
+
+#parent0 {
+    background-color: rgb(116, 70, 168);
+    width: 500px;
+    height: 250px;
+    margin: 300px;
+    position: relative;
+    top: 300px;
+}
+
+#child01 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    margin: 20px;
+    top: 180px;
+}
+
+#child02 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    left: 60px;
+    margin: 20px;
+    top: 80px;
+    padding-top: 100px;
+}
+
+#child03 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    left: 120px;
+    margin: 20px;
+    top: 0px;
+    padding-top: 180px;
+}
+
+#child04 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    margin: 20px;
+    left: 180px;
+    top: 20px;
+    padding-top: 160px;
+}
+
+#child05 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    margin: 20px;
+    left: 240px;
+    top: 60px;
+    padding-top: 120px;
+}
+
+#child06 {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(175, 166, 166);
+    position: absolute;
+    margin: 20px;
+    left: 300px;
+    top: 130px;
+    padding-top: 50px;
+}
