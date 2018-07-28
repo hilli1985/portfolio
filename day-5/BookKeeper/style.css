@@ -1,0 +1,17 @@
+.name {
+    display: inline;
+    width: 15%;
+    float: left;
+}
+
+.field {
+    display: inline;
+    width: 85%;
+    float: left;
+}
+
+.button {
+    display: inline;
+    width: 85%;
+    float: left;
+}

@@ -79,3 +79,25 @@ console.log('Wishing well should have 18 coins: ' + tipJar.coinCount);
 
 tipJar.stealCoins(10);
 console.log('Wishing well should have 8 coins: ' + tipJar.coinCount);
+
+var revealSecret = function() {
+    return this.secret;
+};
+
+var shoutIt = function(person, func) {
+    person.revealItAll = func;
+    var result = person.revealItAll();
+    alert(person.name + " said: " + result);
+};
+var avi = {
+    name: "Avi",
+    secret: "I'm scared of sankes!"
+};
+
+var narkis = {
+    name: "Narkis",
+    secret: "I don't have because I'm zen like that."
+};
+
+shoutIt(avi, revealSecret);
+shoutIt(narkis, revealSecret);
